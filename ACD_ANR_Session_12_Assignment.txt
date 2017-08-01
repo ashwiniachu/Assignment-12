@@ -1,0 +1,74 @@
+﻿1. Examine the following normal Quantile plots carefully. Which of these plots indicates that the data …
+
+I. Are nearly normal?
+
+Ans : C
+
+If the data is normally distributed, the points in the QQ-normal plot lie on a straight diagonal line. 
+
+II. Have a bimodal distribution? (One way to recognize a bimodal shape is a “gap” in the spacing of adjacent data values.)
+
+Ans : B and D
+
+In statistics, a bimodal distribution is a continuous probability distribution with two different modes.
+
+III. Are skewed (i.e. not symmetric) ?
+
+Ans : A
+The distribution is not bell-shaped but positively skewed (i.e., most data points are in the lower half).
+
+IV. Have outliers on both sides of the center?
+
+Ans : A and D
+
+2. For each of the following statements, indicate whether it is True/False. If false, explain why.
+The manager of a warehouse monitors the volume of shipments made by the delivery team. The automated tracking system tracks every package as it moves through the facility.
+A sample of 25 packages is selected and weighed every day. Based on current contracts with customers, the weights should have μ = 22 lbs. and σ = 5 lbs.
+
+i) Before using a normal model for the sampling distribution of the average package weights, the manager must confirm that weights of individual packages are normally distributed.
+
+Ans : False
+
+our sample size is less than 30.
+
+(ii) The standard error of the daily average SE( ̅) = 1.
+
+Ans : True
+
+=6/sqrt(25)=1.2
+
+3. Auditors at a small community bank randomly sample 100 withdrawal transactions made during the week at an ATM machine located near the bank’s main branch. Over the past 2 years, the average withdrawal amount has been $50 with a standard deviation of $40. Since audit investigations are typically expensive, the auditors decide to not initiate further investigations if the mean transaction amount of the sample is between $45 and $55.
+ What is the probability that in any given week, there will be an investigation?
+ 
+ A. 1.25%
+B. 2.5%
+C. 10.55%
+D. 21.1%
+E. 50%
+
+In this case the center is at mu = 50 and the standard error is SE = s/sqrt(n) = 40/sqrt(100) = 40/10 = 4
+
+This distribution is normally distributed because of the central limit theorem.
+
+n = 100 makes n > 30 true 
+
+P(45 < x < 55) is roughly 0.7887
+
+
+Subtracting 1 from that value gives 1-0.7887 = 0.2113 which converts to 21.13%
+
+That rounds to 21.1%
+
+Option (D)= 21.1% 
+
+
+4. The auditors from the above example would like to maintain the probability of investigation to 5%. Which of the following represents the minimum number transactions that they should sample if they do not want to change the thresholds of 45 and 55? Assume that the sample statistics remain unchanged.
+
+A. 144
+B. 150
+C. 196
+D. 250
+E. Not enough information
+
+Ans D. 250
+
